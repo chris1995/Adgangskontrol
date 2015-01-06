@@ -90,7 +90,7 @@ else
 <title>Members Only Page</title>
 </head>
 <body>
-<h2><?php echo $message; echo $message2; ?></h2>
+<h2><?php echo $message;?></h2>
 <?php
 if(isset($_SESSION['user_id'])) {
 	echo "<p>Click <a href=\"logout.php\">here</a> to log out.</p>";
